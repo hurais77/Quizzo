@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2a0845</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorNav">#00ccff</color>
+    <color name="colorStats">#000066</color>
+<!--    <color name="darkOr">#6a11cb</color>764ba2-->
+    <color name="darkOr">#430883</color>764ba2
+    <color name="lightYl">#043891</color>
+<!--    <color name="lightYl">#2575fc</color>-->
+    <color name="magic1">#000046</color>
+    <color name="magic2">#1CB5E0</color>
+    <color name="magic3">#59C173</color>
+    <color name="yellow">#FF6F03</color>
+    <color name="navy">#0E0b16</color>
+    <color name="gold">#FFDD03</color>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quizzo</string>
+    <string name="quizzo">QUIZZO</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="start">START</string>
+    <string name="what_s_your_name">What\'s Your Name?</string>
+    <string name="Enter">Button</string>
+    <string name="enter">Enter</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="pName">TextView</string>
+    <string name="sports">Sports</string>
+    <string name="login"><u>Log In</u></string>
+    <string name="sign"><u>Sign Up</u></string>
+    <string name="title_activity_register">Register</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short"><u>Sign in</u></string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="user_name">UserName</string>
+    <string name="form_username">User Name</string>
+    <string name="form_email">Email ID</string>
+    <string name="form_phone">Phone No</string>
+    <string name="form_password">Password</string>
+    <string name="already_member">Already have an Account?</string>
+    <string name="not_member">Don\'t have an Account?</string>
+
+    <string name="new_member">New Here ? Sign up instead.</string>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="passworderror">The password must contain at least 8 character containing, at least one letter and one number</string>
+</resources>

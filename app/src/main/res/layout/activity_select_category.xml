@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context=".SelectCategory">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_3"
+    >
+    <TextView
+        android:id="@+id/helloName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="0dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helloName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="3dp"
+        android:text="Select A Category"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="128dp"
+        android:background="@drawable/custom_button2"
+        android:shadowColor="#313435"
+        android:text="General"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/mathsButton"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/sbutton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="128dp"
+        android:background="@drawable/custom_button2"
+        android:onClick="brain"
+        android:shadowColor="#313435"
+        android:text="Maths"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/sbutton"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="128dp"
+        android:background="@drawable/custom_button2"
+        android:shadowColor="#313435"
+        android:text="SPORTS"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/celeb"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="125dp"
+        android:alpha="0"
+        android:background="@drawable/custom_button2"
+        android:shadowColor="#313435"
+        android:text="FOOTBALL"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="gone" />
+
+    <Button
+        android:id="@+id/gk"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="342dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="252dp"
+        android:alpha="0"
+        android:background="@drawable/custom_button2"
+        android:shadowColor="#313435"
+        android:text="CRICKET"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/math_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sbutton"
+        android:layout_alignStart="@+id/mathsButton"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="129dp"
+        android:alpha="1"
+        android:clickable="true"
+        android:visibility="visible"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/football_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/celeb"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="42dp"
+        android:alpha="0"
+        android:clickable="true"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/cricket_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/gk"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="43dp"
+        android:alpha="0"
+        android:clickable="true"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        tools:visibility="gone" />
+
+
+</RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:id="@+id/nav_view"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header"
+        android:background="@drawable/purple_gradient"
+        app:itemTextColor="@android:color/white"
+app:itemIconTint="@android:color/white"
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start"
+
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>
